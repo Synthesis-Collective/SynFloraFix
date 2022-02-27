@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 using Mutagen.Bethesda;
 using Mutagen.Bethesda.Skyrim;
-using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Strings;
+using Mutagen.Bethesda.Synthesis;
 
 using Noggog;
 

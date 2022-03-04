@@ -88,12 +88,11 @@ namespace SynFloraFixer
             if (translatedText == null || string.IsNullOrWhiteSpace(translatedText?.String))
             {
                 return new TranslatedString(Language.English, new Dictionary<Language, string>
-                        {
-                            { Language.English, "Get:" },
-                            { Language.Russian, "Âçÿòü:" },
-                        });
+                {
+                    {Language.English, "Get:"},
+                    {Language.Russian, "Âçÿòü:"},
+                });
             }
-
             return null;
         }
     }
